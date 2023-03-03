@@ -14,7 +14,7 @@ const Navbar = () => {
           <Link to={`/new`} className="new-btn">Cursos</Link>
         </li>
         <li>
-          <Link to={`/cadastro`} className="new-btn">Cadastro </Link>
+          <Link to={`/cadastro`} className="new-btn">Alunos </Link>
         </li>
        
       </ul>
