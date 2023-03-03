@@ -6,13 +6,17 @@ const Navbar = () => {
       <h2>
         <Link to={`/`} >School</Link>
       </h2>
-      <ul>
+      <ul> 
         <li>
-          <Link to={`/`}>Area de cadastro</Link>
+          <Link to={`/`} className="new-btn">Dashboard</Link>
         </li>
         <li>
-          <Link to={`/new`} className="new-btn">New Student</Link>
+          <Link to={`/new`} className="new-btn">Cursos</Link>
         </li>
+        <li>
+          <Link to={`/cadastro`} className="new-btn">Cadastro </Link>
+        </li>
+       
       </ul>
     </nav>
   )
